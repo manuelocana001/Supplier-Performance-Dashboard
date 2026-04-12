@@ -173,13 +173,16 @@ The procurement team faced three critical challenges:
 
 ## 📊 Deliverables
 
-### [View Live Tableau Dashboard](https://public.tableau.com/app/profile/manuel.ramirez3002/viz/SupplierPerformanceDashboard2/SupplierPerformanceAnalyticsDashboard)
+### [View Live Tableau Dashboard](https://public.tableau.com/app/profile/manuel.ramirez3002/viz/SupplierPerformanceDashboard-WIP/Dashboard1)
 
 **Dashboard Features:**
-- Top 10 Suppliers by Total Spend (bar chart, sorted descending)
-- On-Time Delivery % by Supplier (bar chart with color coding)
-- Late Shipments by Category (bar chart showing problem areas)
-- Total Spend by Country (geographic spend distribution)
+- **KPI Summary Cards:** Total Suppliers (20), Total Spend ($61.3M), Average OTD% (38%)
+- **On-Time Delivery by Supplier:** Color-coded performance ranking (worst to best)
+- **Top 10 Suppliers by Spend:** Identifies concentration risk with Gaines-Olsen ($5.7M)
+- **Late Shipments by Category:** Electronics shows 65% late rate requiring immediate action
+- **Spend by Country:** Geographic distribution across 6 sourcing countries
+- **Key Annotation:** Highlights critical risk - Gaines-Olsen has only 20% OTD despite being top spender
+
 
 ### Project Files
 - `generate_supplier_data.py` — Synthetic dataset generator
